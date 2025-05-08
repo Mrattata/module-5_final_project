@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Event Center</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid bg-secondary ">
+                <a class="navbar-brand py-0" href="index.html"><img src="assets/uncommon.png" alt="EdhRec" width="70" height="60"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="index.html">EDHREC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="location.html">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid bg-dark text-white text-center py-5">
+            <h1 id="title">Welcome to EDHREC</h1>
+            <button onclick="changeText()">Click me</button>
+        </div>
+
+        <section class="events py-5">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <a href="https://edhrec.com/articles/the-best-ways-to-play-kaheera-the-orphanguard-in-commander">
+                            <img src="assets/Kaheera.webp" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <p>May 8, 2025</p>
+                                <a href="https://edhrec.com/articles/the-best-ways-to-play-kaheera-the-orphanguard-in-commander">
+                              <h5 class="card-title">The Best Ways to Play Kaheera, the Orphanguard in Commander</h5>
+                                </a>
+                              <p class="card-text">Let's look at all the best ways to use Kaheera, the Orphanguard in Commander, including the command zone and as companion.</p>
+                              <a href="https://edhrec.com/articles/the-best-ways-to-play-kaheera-the-orphanguard-in-commander" class="btn btn-primary">Article</a>
+                            </div>
+                          </div>
+                    </div> <!-- End col-md-4 -->
+
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <a href="https://edhrec.com/articles/ms-bumbleflower-is-better-as-a-voltron-deck">
+                            <img src="assets/card-7vaMd-art_crop.webp" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <p>May 8, 2025</p>
+                                <a href="https://edhrec.com/articles/ms-bumbleflower-is-better-as-a-voltron-deck">
+                              <h5 class="card-title">Ms. Bumbleflower Is Better as a Voltron Deck</h5>
+                                </a>
+                              <p class="card-text">Ms. Bumbleflower is most often played as a Group Hug commander, but we're missing out on her full potential as a Voltron deck.</p>
+                              <a href="https://edhrec.com/articles/ms-bumbleflower-is-better-as-a-voltron-deck" class="btn btn-primary">Article</a>
+                            </div>
+                          </div>
+                    </div> <!-- End col-md-4 -->
+
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <a href="https://edhrec.com/articles/the-best-white-aristocrat-cards-in-commander">
+                            <img src="assets/08fb5f312d76f129e27c462ff4e58943.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <p>May 7, 2025</p>
+                                <a href="https://edhrec.com/articles/the-best-white-aristocrat-cards-in-commander">
+                              <h5 class="card-title">The Best White Aristocrat Cards in Commander</h5>
+                              </a>
+                              <p class="card-text">Let's look at all of the best white cards for one of the most popular, and powerful, strategies in Commander: aristocrats.</p>
+                              <a href="https://edhrec.com/articles/the-best-white-aristocrat-cards-in-commander" class="btn btn-primary">Article</a>
+                            </div>
+                          </div>
+                    </div> <!-- End col-md-4 -->
+                    
+                </div> <!-- End row -->
+            </div> <!-- End container -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Event Center</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
