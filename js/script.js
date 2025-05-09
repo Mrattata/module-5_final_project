@@ -1,6 +1,7 @@
 function changeText() {
     let title = document.getElementById("title");
-    title.innerHTML = "This title was changed by JavaScript!";
+    title.innerHTML = "COUNTER SPELL!!!!";
+
 }
 
 function add(num1, num2) {

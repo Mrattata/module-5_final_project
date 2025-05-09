@@ -13,8 +13,18 @@ footer {
     width: 50%;
     margin: auto;
     margin-top: 50px;
-    background-color: rgba(24, 96, 124, 0.548);
+    background-color: rgba(0, 0, 0, 0.548);
     padding: 18px;
     color: white;
     border-radius: 25px;
+}
+
+.herobutton{
+    border-radius: 10px;
+}
+
+.herobutton:hover{
+    color:aliceblue;
+    background-color: black;
+
 }
