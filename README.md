@@ -1,4 +1,4 @@
-This is my website replica porject, It is based on the EDHREC.com website.
+This is my website replica project, It is based on the EDHREC.com website.
 many of the links refer to pages on the main EDHREC site.
 I used Bootstrap with a little CSS to style the site.
 I used cards, a carousel, and an accordion as my main bootstrap components.
