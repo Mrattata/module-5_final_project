@@ -19,12 +19,19 @@ footer {
     border-radius: 25px;
 }
 
-.herobutton{
+.herobutton {
     border-radius: 10px;
 }
 
-.herobutton:hover{
+.herobutton:hover {
     color:aliceblue;
     background-color: black;
 
+}
+
+.mynav {
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    
 }
